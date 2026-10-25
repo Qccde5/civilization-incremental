@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Civilization Incremental</title>
+    <script type="module" crossorigin src="./assets/index-CtJOiYMt.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DK21_osL.css">
+  </head>
+  <body>
+    <header class="top-bar" id="topBar"></header>
+    <main id="app">
+      <h1>Civilization Incremental</h1>
+      <div id="settings"></div>
+      <div id="welcome"></div>
+      <div id="event"></div>
+      <div id="era"></div>
+      <div class="layout">
+        <div class="panel" data-panel="civilization" id="civilization"></div>
+        <div class="panel" data-panel="resources" id="resources"></div>
+        <div class="panel" data-panel="buildings" id="buildings"></div>
+        <div class="stack">
+          <div class="panel" data-panel="construction" id="construction"></div>
+          <div class="panel" data-panel="research" id="research"></div>
+          <div class="panel" data-panel="military" id="military"></div>
+        </div>
+        <div
+          class="panel chronicle-panel"
+          data-panel="civilization"
+          id="chronicle"
+        ></div>
+      </div>
+    </main>
+    <div id="toast"></div>
+    <nav class="tab-bar" id="tabBar" aria-label="Panels"></nav>
+  </body>
+</html>
